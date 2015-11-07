@@ -49,9 +49,9 @@ public class DirectorySize {
 		String directory = args[0];
 		File dir = new File(directory);
 		   // verification goes here
-		/*if(!dir.isDirectory()) {
+		if(!dir.isDirectory()) {
 			throw new IOException("Invalid Directory");
-		}*/
+		}
 		
 		
 		
