@@ -11,32 +11,12 @@ class StringNode {
 	}
 
 	void remove(String item) {
-
 	}
-
-	void clear() {
-
-	}
-
-	boolean contains(String item) {
-		return false;
-	}
-
-	int indexOf(String item) {
-		return 0;
-	}
-
-	String get(int index) {
-		return "";
-	}
-
-	int size() {
-		return 0;
-	}
-
+	
 	public void setData(String data) {
 		this.data = data;
 	}
+
 	public void setNext(StringNode next) {
 		this.next = next;
 	}
@@ -44,6 +24,7 @@ class StringNode {
 	public String getData() {
 		return data;
 	}
+
 	public StringNode getNext() {
 		return next;
 	}
@@ -66,4 +47,19 @@ class StringNode {
 		//System.out.println(sn.getData());
 		//System.out.println(current.getData());
 	}
+	/* Intuitive
+	void clear() {
+	}
+	boolean contains(String item) {
+		return false;
+	}
+	int indexOf(String item) {
+		return 0;
+	}
+	String get(int index) {
+		return "";
+	}
+	int size() {
+		return 0;
+	}*/ 
 }
